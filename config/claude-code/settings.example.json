@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(~/ActiveWork/**)",
+      "Edit(~/ActiveWork/**)",
+      "Bash(date:*)"
+    ],
+    "deny": [
+      "Read(~/.ssh/**)",
+      "Read(**/.env)",
+      "Read(**/.env.*)"
+    ]
+  }
+}
