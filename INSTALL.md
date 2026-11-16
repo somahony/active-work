@@ -6,7 +6,7 @@ Read [SECURITY.md](SECURITY.md) before giving any agent access to work sources.
 
 ## Level 2: an agent that can use files on your computer
 
-Works with Claude Code, Codex, Claude Cowork, Gemini CLI and anything else that reads a folder.
+Works with Claude Code, Codex, Claude Cowork, Gemini CLI, GrokBot, Muse and anything else that reads a folder.
 
 1. **Get the files.**
 
