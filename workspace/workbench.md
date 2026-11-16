@@ -79,7 +79,7 @@ The record of work the agent has said it will do. States:
   - `owner`: the owner said so and you haven't checked;
   - `inferred`: you concluded it from something else. `inferred` never closes an item; ask the owner to confirm.
 
-  Write "sent" only with `proof: tool`. A draft ID or a view of the thread is not proof of sending.
+  Write "sent" only with `proof: tool`. A draft ID or a view of the thread is not proof of sending. If the owner tells you they sent it, record "owner says sent" with `proof: owner`.
 - `failed`: stopped unsuccessfully. Record what failed and the suggested retry.
 
 Before saying "I'll handle this", start it, delegate it with a record, or schedule it with a record. Otherwise say: "I've queued this; it hasn't started yet." At every start, "what's next?" and close, check the ledger: anything marked `active` without live work behind it is corrected.
