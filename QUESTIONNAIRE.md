@@ -70,7 +70,7 @@ This is what makes the first morning brief useful.
 | # | Question | Default | Goes to |
 |---|---|---|---|
 | F1 | List up to ten things you have open right now. A few words each is enough. | none | `carry-forward.md`, one entry each |
-| F2 | For each: is the next move yours, the agent's, or someone else's (and if someone else's, have you already asked them)? Is there a due date, or a date to check again? | lane `my_action`, no date | `carry-forward.md` lane, `next_action`, `target_date`, `review_after` |
+| F2 | For each: is the next move yours, the agent's, or someone else's (and if someone else's, have you already asked them)? Is there a due date, or a date to check again? If I'm waiting on someone and gave no date, suggest one a week from today. | lane `my_action`, no date | `carry-forward.md` lane, `next_action`, `target_date`, `review_after` |
 | F3 | Which one matters most this week? | the first | that entry's first `history` line: "top priority this week" |
 
 ## After the questions
